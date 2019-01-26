@@ -1,31 +1,42 @@
 * {
   box-sizing: border-box;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 body {
-  background-color: rgb(87, 87, 87);
+  background-image: url("./Bgall.jpg");
 }
-#bgcolor {
-  position: absolute;
-  margin: -40px -20px 0 -20px;
+header {
+  position: fixed;
+  margin: -5px -20px 0 -20px;
   height: 226px;
   width: 103%;
+  z-index: 4;
+}
+#bgcolor {
+  /*position: absolute;
+  margin: -40px -20px 0 -20px;
+  height: 226px;
+  width: 103%;*/
   background-image: url("./bgheader2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  z-index: 1;
+  height: 236px;
+  z-index: 4;
   -webkit-filter: blur(15px);
   filter: blur(0px) sepia(20%) opacity(80%) invert(0%) opacity(100%);
+  bottom: 10px;
 }
 #bgcolor1 {
-  position: absolute;
+  /*position: absolute;
   margin: -40px -20px 0 -20px;
   height: 226px;
-  width: 103%;
+  width: 103%;*/
   background-color: rgba(255, 191, 0, 1);
   background-size: 100% auto;
-  z-index: 0;
+  z-index: 3;
+  height: 226px;
+  bottom: 236px;
 }
 h1.logo {
   font-size: 60px;
@@ -35,7 +46,9 @@ h1.logo {
   margin-bottom: 0;
   max-width: 100%;
   min-width: 8.5%;
-  left: 2%;
+  left: 3%;
+  bottom: 462px;
+  z-index: 5;
 }
 h5.logo{
   color: white;
@@ -45,7 +58,12 @@ h5.logo{
   margin-top: 0;
   max-width: 70%;
   min-width: 8.5%;
-  left: 2%;
+  left: 3%;
+  bottom: 462px;
+  z-index: 5;
+}
+div.realbody {
+  top: 220px;
 }
 /*div.nav {
   position: absolute;
@@ -54,28 +72,33 @@ h5.logo{
 }*/
 div#nav5 {
   position: absolute;
-  right: 10px;
-  top: 15%;
+  right: 60px;
+  top: 27%;
+  z-index: 5;
 }
 div#nav4 {
   position: absolute;
-  right: 120px;
-  top: 15%;
+  right: 170px;
+  top: 27%;
+  z-index: 5;
 }
 div#nav3 {
   position: absolute;
-  right: 230px;
-  top: 15%;
+  right: 280px;
+  top: 27%;
+  z-index: 5;
 }
 div#nav2 {
   position: absolute;
-  right: 340px;
-  top: 15%;
+  right: 390px;
+  top: 27%;
+  z-index: 5;
 }
 div#nav1 {
   position: absolute;
-  right: 450px;
-  top: 15%;
+  right: 500px;
+  top: 27%;
+  z-index: 5;
 }
 object.nav:hover{
   font-size: 140%;
@@ -99,55 +122,79 @@ object.nav {
 div.captionTeam {
   top: 30px;
   margin-top: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   border-style: solid;
   border-width: medium;
   border-color: black;
   height: 400px;
-  width:90%;
+  width:80%;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
+div.riIma {
+  position: absolute;
+  right: 2.5%;
+  bottom: 3%;
+  float: right;
+  max-width: 687px;
+  max-height: 372px;
+}
+div.riIma2 {
+  position: absolute;
+  right: 2.5%;
+  bottom: 3%;
+  float: right;
+}
+div.leIma {
+  max-width: 687px;
+  max-height: 372px;
+  position: absolute;
+  float: left;
+  left: 2.5%;
+  bottom: 3%;
+  z-index: 0;
+}
+div.leIma2 {
+  position: absolute;
+  left: 2%;
+  float: left;
+  bottom: 3%;
+}
 .captionLeft {
-  margin: 0 5px 0 5px;
-  max-width: 30%;
+  margin: 10% 5%;
+  max-width: 40%;
+  font-family: 'Patua One';
+  font-size: 200%;
 }
 img.imRight {
-  position: relative;
-  float: right;
-  right: 0%;
-  bottom: 35px;
-  z-index: 0;
-  right: 1%;
   filter: grayscale(100%) invert(100%);
   max-width: 687px;
   max-height: 372px;
   }
 .captionRight {
-  left: 690px;
-  margin: 0 5px 0 5px;
-  max-width: 30%;
+  margin: 8% 5% 8% 55%;
+  max-width: 60%;
+  font-family: 'Patua One';
+  font-size: 175%;
+  z-index: 0;
+  overflow: scroll;
+
 }
 div.captionTeam2 {
   top: 30px;
   margin-top: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   border-style: solid;
   border-width: medium;
   border-color: black;
   height: 400px;
-  width:90%;
+  width:80%;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
 img.imLeft {
-  position: relative;
-  float: left;
-  left: 1%;
-  bottom: 35px;
-  z-index: 0;
   filter: grayscale(100%) invert(100%);
   max-width: 700px;
   max-height: 380px;
@@ -156,12 +203,16 @@ img.imLeft {
 img.imRight:hover, img.imLeft:hover {
   filter: grayscale(0%);
 }
-div.footer {
-  bottom: -20px;
+a.hometitle {
+  color: rgb(102, 2, 2);
 }
-footer h6{
+div.footer {
+  bottom: -220px;
+}
+footer h6 {
+  bottom: -200px;
   text-align: center;
   color: white;
   font-family: 'Patua One';
-  letter-spacing: 0.2em;
+  letter-spacing: 0.4em;
 }
