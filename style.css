@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+body {
+  background-color: rgb(87, 87, 87);
+}
+#bgcolor {
+  position: absolute;
+  margin: -40px -20px 0 -20px;
+  height: 226px;
+  width: 103%;
+  background-image: url("./bgheader2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 1;
+  -webkit-filter: blur(15px);
+  filter: blur(0px) sepia(20%) opacity(80%) invert(0%) opacity(100%);
+}
+#bgcolor1 {
+  position: absolute;
+  margin: -40px -20px 0 -20px;
+  height: 226px;
+  width: 103%;
+  background-color: rgba(255, 191, 0, 1);
+  background-size: 100% auto;
+  z-index: 0;
+}
+h1.logo {
+  font-size: 60px;
+  color: rgb(171, 20, 0);
+  font-family: Monoton;
+  font-weight: 700;
+  margin-bottom: 0;
+  max-width: 100%;
+  min-width: 8.5%;
+  left: 2%;
+}
+h5.logo{
+  color: white;
+  font-size: 160%;
+  font-family: sans-serif;
+  letter-spacing: 1.45em;
+  margin-top: 0;
+  max-width: 70%;
+  min-width: 8.5%;
+  left: 2%;
+}
+/*div.nav {
+  position: absolute;
+  right: 2%;
+  top: 15px;
+}*/
+div#nav5 {
+  position: absolute;
+  right: 10px;
+  top: 15%;
+}
+div#nav4 {
+  position: absolute;
+  right: 120px;
+  top: 15%;
+}
+div#nav3 {
+  position: absolute;
+  right: 230px;
+  top: 15%;
+}
+div#nav2 {
+  position: absolute;
+  right: 340px;
+  top: 15%;
+}
+div#nav1 {
+  position: absolute;
+  right: 450px;
+  top: 15%;
+}
+object.nav:hover{
+  font-size: 140%;
+}
+object.nav {
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 115%;
+  margin-right: 10px;
+}
+#bgcolorfoot {
+  position: relative;
+  bottom: 0px;
+  margin: 20px -20px -40px -20px;
+  height: 100px;
+  width: 103%;
+  background-color: #342700;
+  background-size: 100% auto;
+  z-index: 0;
+}
+div.captionTeam {
+  top: 30px;
+  margin-top: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  height: 400px;
+  width:90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.captionLeft {
+  margin: 0 5px 0 5px;
+  max-width: 30%;
+}
+img.imRight {
+  position: relative;
+  float: right;
+  right: 0%;
+  bottom: 35px;
+  z-index: 0;
+  right: 1%;
+  filter: grayscale(100%) invert(100%);
+  max-width: 687px;
+  max-height: 372px;
+  }
+.captionRight {
+  left: 690px;
+  margin: 0 5px 0 5px;
+  max-width: 30%;
+}
+div.captionTeam2 {
+  top: 30px;
+  margin-top: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  height: 400px;
+  width:90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+img.imLeft {
+  position: relative;
+  float: left;
+  left: 1%;
+  bottom: 35px;
+  z-index: 0;
+  filter: grayscale(100%) invert(100%);
+  max-width: 700px;
+  max-height: 380px;
+}
+
+img.imRight:hover, img.imLeft:hover {
+  filter: grayscale(0%);
+}
+div.footer {
+  bottom: -20px;
+}
+footer h6{
+  text-align: center;
+  color: white;
+  font-family: 'Patua One';
+  letter-spacing: 0.2em;
+}
