@@ -163,3 +163,31 @@ h2.aboutUs {
   height: 500px;
   width: 80%;
 }
+div#allform {
+  color: white;
+  left: 10%;
+  right: 10%;
+  font-family: 'Patua One';
+  top: 250px;
+  margin: 0 auto;
+  height: 100px;
+}
+input.textkotak, input.order {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+  width: 500px;
+}
+textarea.textkotak {
+  position: absolute;
+  left: 200px;
+  height: 300px;
+  width: 1000px;
+}
+input.order {
+  bottom: -250px;
+  width: 200px;
+}
+input.order:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
