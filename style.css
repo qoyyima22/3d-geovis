@@ -203,6 +203,9 @@ img.imLeft {
 img.imRight:hover, img.imLeft:hover {
   filter: grayscale(0%);
 }
+img#im1:hover {
+
+}
 a.hometitle {
   color: rgb(102, 2, 2);
 }

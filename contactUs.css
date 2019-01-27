@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url("./Bgall.jpg");
+  height: 87%;
+}
+header {
+  position: fixed;
+  margin: -20px -20px 0 -20px;
+  height: 230px;
+  width: 103%;
+  z-index: 4;
+}
+#bgcolor {
+  /*position: absolute;
+  margin: -40px -20px 0 -20px;
+  height: 226px;
+  width: 103%;*/
+  background-image: url("./bgheader2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 236px;
+  z-index: 4;
+  -webkit-filter: blur(15px);
+  filter: blur(0px) sepia(20%) opacity(80%) invert(0%) opacity(100%);
+  bottom: 10px;
+  background-size: cover;
+}
+#bgcolor1 {
+  /*position: absolute;
+  margin: -40px -20px 0 -20px;
+  height: 226px;
+  width: 103%;*/
+  background-color: rgba(255, 191, 0, 1);
+  background-size: 100% auto;
+  z-index: 3;
+  height: 236px;
+  bottom: 246px;
+  background-size: cover;
+}
+h1.logo {
+  font-size: 60px;
+  color: rgb(171, 20, 0);
+  font-family: Monoton;
+  font-weight: 700;
+  left: 3%;
+  bottom: 468px;
+  z-index: 5;
+  max-height: 70px;
+}
+h5.logo{
+  position: absolute;
+  color: white;
+  font-size: 160%;
+  font-family: sans-serif;
+  letter-spacing: 1.45em;
+  max-height: 50px;
+  margin-top: 0;
+  left: 3%;
+  z-index: 5;
+  bottom: 0px;
+}
+
+/*div.nav {
+  position: absolute;
+  right: 2%;
+  top: 15px;
+}*/
+div#nav5 {
+  text-align: right;
+  position: absolute;
+  right: 60px;
+  top: 27%;
+  z-index: 5;
+  width: 120px;
+}
+div#nav4 {
+  text-align: right;
+  position: absolute;
+  right: 170px;
+  top: 27%;
+  z-index: 5;
+  width: 120px;
+}
+div#nav3 {
+  text-align: right;
+  position: absolute;
+  right: 280px;
+  top: 27%;
+  z-index: 5;
+  width: 120px;
+}
+div#nav2 {
+  text-align: right;
+  position: absolute;
+  right: 390px;
+  top: 27%;
+  z-index: 5;
+  width: 120px;
+}
+div#nav1 {
+  text-align: right;
+  position: absolute;
+  right: 500px;
+  top: 27%;
+  z-index: 5;
+  width: 150px;
+}
+object.nav {
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 115%;
+  margin-right: 10px;
+}
+object.nav:hover{
+  font-size: 140%;
+}
+
+#bgcolorfoot {
+  position: absolute;
+  display:inline;
+  bottom: -110px;
+  margin: 20px -20px -40px -20px;
+  height: 100px;
+  width: 103%;
+  background-color: #342700;
+  background-size: 100% auto;
+  z-index: 0;
+}
+footer {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  width: 942px;
+  height: 100px;
+}
+h6.copyright {
+  top: 40px;
+  position:absolute;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Patua One';
+  letter-spacing: 0.4em;
+  z-index:5;
+}
+h2.aboutUs {
+  font-family: 'Patua One';
+  font-size: 160%;
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 1.4;
+  text-align: justify;
+  padding: 8%;
+  color: white;
+  position: absolute;
+  top: 220px;
+  left: 10%;
+  height: 500px;
+  width: 80%;
+}
